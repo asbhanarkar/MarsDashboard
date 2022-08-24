@@ -1,0 +1,110 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+header {
+   text-align: center;
+   background-color: black;
+   
+}
+h1{
+  font-style: italic;
+  color: white;
+  font-size: 50px;
+}
+h2{
+  color: blue;
+  padding-top: 20px;
+}
+figcaption{
+  color: rgb(238, 94, 231);
+}
+main {
+  flex: 1;
+  justify-content: center;
+  padding: 10px;
+  background-color: antiquewhite;
+}
+
+button{
+
+ font-size: 20px;
+ padding: 20px 40px 20px 40px;
+ margin: 5px 20px 5px 20px;
+ cursor: pointer;
+
+}
+
+button:hover{
+  background-color: aqua;
+}
+img{
+  width: 240px;
+  height: 200px;
+  border: solid yellow;
+
+}
+
+.rover{
+  text-align: center;
+  
+}
+.photos{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* -------------------  TABLET  --------------------- */
+
+@media (min-width: 768px) {
+  /* use mobile */
+  main{
+    padding: 20px;
+  }
+  img{
+    width: 400px;
+    height: 300px;
+  }
+  h1{
+    font-size: 70px;
+  }
+ 
+  
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use mobile */
+  main{
+    padding: 20px;
+  }
+  img{
+    width: 500px;
+    height: 350px;
+  }
+  h1{
+    font-size: 80px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use mobile */
+  main{
+    padding: 20px;
+  }
+  img{
+    width: 600px;
+    height: 400px;
+  }
+  h1{
+    font-size: 90px;
+  }
+}
